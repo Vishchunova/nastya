@@ -1,0 +1,16 @@
+using sistem;
+namespace a
+{
+class Program
+{
+static void Main(string[] args)
+{
+double a, b, c;
+a = Convert.Todouble(Console.ReadLine());
+b = Convert.Todouble(Console.ReadLine());
+c = Convert.Todouble(Console.ReadLine());
+Console.WriteLine(Math.Max(a, Math.Max(b, c)));
+Console.ReadKey();
+}
+}
+}
