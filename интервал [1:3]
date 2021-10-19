@@ -1,0 +1,21 @@
+using sistem;
+namespace a
+{
+class Program
+{
+static void Main()
+{
+int a, b,c;
+a = Convert.Todouble(Console.ReadLine());
+b = Convert.Todouble(Console.ReadLine());
+c = Convert.Todouble(Console.ReadLine());
+if (a >= 1 && a <= 3)
+Console.WriteLine(a);
+if (b >= 1 && b <= 3)
+Console.WriteLine(b);
+if (c >= 1 && c <= 3)
+Console.WriteLine(c);
+Console.ReadKey();
+}
+}
+}
