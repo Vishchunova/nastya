@@ -1,0 +1,24 @@
+using System;
+
+namespace ConsoleApp3
+{
+class Program
+{
+static void Main(string[] args)
+{
+Console.Write("Введите число");
+int p = Convert.ToInt32(Console.ReadLine());
+int b = 1;
+int a = 1;
+do
+{
+a *= b;
+++b;
+
+}
+while (b <= p);
+Console.WriteLine(a);
+Console.ReadLine();
+
+}
+}
